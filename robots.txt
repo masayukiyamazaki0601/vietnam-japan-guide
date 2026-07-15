@@ -1,0 +1,14 @@
+# robots.txt for Vietnam Japan Guide
+# https://vietnam-japan-guide.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://vietnam-japan-guide.com/sitemap.xml
+
+# Crawl delay for polite crawling
+Crawl-delay: 10
+
+# Disallow admin/internal paths (none currently)
+# Disallow: /admin/
