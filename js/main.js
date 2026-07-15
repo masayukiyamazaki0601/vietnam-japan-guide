@@ -1,5 +1,6 @@
 /* ============================================
    Vietnam Japan Guide - Main JavaScript
+   デザインリニューアル対応版
    ============================================ */
 
 'use strict';
@@ -11,33 +12,38 @@ document.addEventListener('DOMContentLoaded', function() {
   initBackToTop();
   initSmoothScroll();
   initActiveNav();
+  initHeaderScroll();
+  initIntersectionObserver();
 });
 
 // ---------- Mobile Menu ----------
 function initMobileMenu() {
   const menuToggle = document.querySelector('.header__menu-toggle');
-  const navList = document.querySelector('.header__nav-list');
+  const nav = document.querySelector('.header__nav');
 
-  if (!menuToggle || !navList) return;
+  if (!menuToggle || !nav) return;
 
   menuToggle.addEventListener('click', function() {
     this.classList.toggle('active');
-    navList.classList.toggle('open');
+    nav.classList.toggle('open');
+    this.setAttribute('aria-expanded', nav.classList.contains('open'));
   });
 
   // Close menu when clicking outside
   document.addEventListener('click', function(e) {
     if (!e.target.closest('.header__inner')) {
       menuToggle.classList.remove('active');
-      navList.classList.remove('open');
+      nav.classList.remove('open');
+      menuToggle.setAttribute('aria-expanded', 'false');
     }
   });
 
   // Close menu when clicking a link
-  navList.querySelectorAll('.header__nav-link').forEach(function(link) {
+  nav.querySelectorAll('.header__nav-link').forEach(function(link) {
     link.addEventListener('click', function() {
       menuToggle.classList.remove('active');
-      navList.classList.remove('open');
+      nav.classList.remove('open');
+      menuToggle.setAttribute('aria-expanded', 'false');
     });
   });
 }
@@ -45,26 +51,36 @@ function initMobileMenu() {
 // ---------- Search Functionality ----------
 function initSearch() {
   var searchInput = document.querySelector('.hero__search-input');
+  var searchBtn = document.querySelector('.header__search-btn');
 
-  if (!searchInput) return;
-
-  // Simple search - redirect to Google search with site: prefix
-  searchInput.addEventListener('keydown', function(e) {
-    if (e.key === 'Enter') {
-      e.preventDefault();
-      var query = this.value.trim();
-      if (query.length > 0) {
-        var searchUrl = 'https://www.google.com/search?q=site:vietnam-japan-guide.com ' + encodeURIComponent(query);
-        window.open(searchUrl, '_blank');
-      }
+  function doSearch(query) {
+    query = query.trim();
+    if (query.length > 0) {
+      var searchUrl = 'https://www.google.com/search?q=site:vietnam-japan-guide.com ' + encodeURIComponent(query);
+      window.open(searchUrl, '_blank');
     }
-  });
+  }
+
+  if (searchInput) {
+    searchInput.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        doSearch(this.value);
+      }
+    });
+  }
+
+  if (searchBtn) {
+    searchBtn.addEventListener('click', function() {
+      var input = document.querySelector('.hero__search-input');
+      if (input) input.focus();
+    });
+  }
 }
 
 // ---------- Back to Top ----------
 function initBackToTop() {
   var button = document.querySelector('.back-to-top');
-
   if (!button) return;
 
   window.addEventListener('scroll', function() {
@@ -83,7 +99,7 @@ function initBackToTop() {
   });
 }
 
-// ---------- Smooth Scroll for Anchor Links ----------
+// ---------- Smooth Scroll ----------
 function initSmoothScroll() {
   document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
     anchor.addEventListener('click', function(e) {
@@ -112,12 +128,46 @@ function initActiveNav() {
 
   document.querySelectorAll('.header__nav-link').forEach(function(link) {
     var href = link.getAttribute('href');
-
-    // Check if current page matches nav link
     if (currentPath === href ||
         (href !== '/' && currentPath.startsWith(href))) {
       link.classList.add('header__nav-link--active');
     }
+  });
+}
+
+// ---------- Header Scroll Effect ----------
+function initHeaderScroll() {
+  var header = document.querySelector('.header');
+  if (!header) return;
+
+  var scrollThreshold = 100;
+
+  window.addEventListener('scroll', function() {
+    if (window.pageYOffset > scrollThreshold) {
+      header.style.boxShadow = '0 2px 20px rgba(0,0,0,0.08)';
+    } else {
+      header.style.boxShadow = 'none';
+    }
+  });
+}
+
+// ---------- Intersection Observer for Animations ----------
+function initIntersectionObserver() {
+  if (!('IntersectionObserver' in window)) return;
+
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('animate-fade-in');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+
+  // Observe category cards and article cards
+  document.querySelectorAll('.category-card, .article-card').forEach(function(el) {
+    el.style.opacity = '0';
+    observer.observe(el);
   });
 }
 
@@ -146,7 +196,6 @@ function copyToClipboard(text) {
       showToast('Đã sao chép vào clipboard');
     });
   } else {
-    // Fallback
     var textarea = document.createElement('textarea');
     textarea.value = text;
     document.body.appendChild(textarea);
@@ -160,41 +209,34 @@ function copyToClipboard(text) {
 // ---------- Simple Toast ----------
 function showToast(message) {
   var existingToast = document.querySelector('.toast');
-  if (existingToast) {
-    existingToast.remove();
-  }
+  if (existingToast) existingToast.remove();
 
   var toast = document.createElement('div');
   toast.className = 'toast';
   toast.textContent = message;
   toast.style.cssText = [
     'position: fixed',
-    'bottom: 24px',
+    'bottom: 80px',
     'left: 50%',
     'transform: translateX(-50%)',
-    'background: #323232',
+    'background: #1A365D',
     'color: #fff',
     'padding: 12px 24px',
-    'border-radius: 4px',
+    'border-radius: 8px',
     'font-size: 14px',
     'z-index: 9999',
     'opacity: 0',
     'transition: opacity 0.3s ease',
-    'box-shadow: 0 2px 8px rgba(0,0,0,0.2)'
+    'box-shadow: 0 4px 12px rgba(0,0,0,0.15)'
   ].join(';');
 
   document.body.appendChild(toast);
-
-  // Trigger reflow
-  toast.offsetHeight;
-
+  toast.offsetHeight; // trigger reflow
   toast.style.opacity = '1';
 
   setTimeout(function() {
     toast.style.opacity = '0';
-    setTimeout(function() {
-      toast.remove();
-    }, 300);
+    setTimeout(function() { toast.remove(); }, 300);
   }, 2000);
 }
 
@@ -203,31 +245,18 @@ function generateTOC() {
   var content = document.querySelector('.article-content');
   if (!content) return;
 
-  var headings = content.querySelectorAll('h2, h3');
+  var headings = content.querySelectorAll('h2[id], h3[id]');
   if (headings.length < 2) return;
 
   var tocContainer = document.querySelector('.toc__list');
   if (!tocContainer) return;
 
-  headings.forEach(function(heading, index) {
-    // Add id to heading if not present
-    if (!heading.id) {
-      var headingText = heading.textContent.trim();
-      var id = 'section-' + (index + 1) + '-' +
-               headingText.toLowerCase()
-                          .replace(/[^a-z0-9\u3000-\u30FF\u4E00-\u9FFF]+/g, '-')
-                          .replace(/^-+|-+$/g, '');
-      heading.id = id;
-    }
-
+  headings.forEach(function(heading) {
     var li = document.createElement('li');
     li.className = 'toc__item';
 
     var a = document.createElement('a');
     a.className = 'toc__link';
-    if (heading.tagName === 'H3') {
-      a.classList.add('toc__link--h3');
-    }
     a.href = '#' + heading.id;
     a.textContent = heading.textContent.trim();
 
