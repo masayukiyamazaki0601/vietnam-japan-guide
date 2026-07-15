@@ -1039,3 +1039,4 @@ p { margin-bottom: var(--sp-4); }
   .header, .footer, .back-to-top, .share-buttons, .sidebar { display: none; }
   .article-content { max-width: 100%; margin: 0; padding: 0; }
 }
+/* Cache bust: Wed Jul 15 18:43:04 JST 2026 */
