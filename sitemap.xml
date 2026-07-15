@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://vietnam-japan-guide.com/</loc>
+    <loc>https://vietnam-japan-guide.com</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.00</priority>
   </url>
-  <!-- Category Pages -->
   <url>
     <loc>https://vietnam-japan-guide.com/pages/vinh-tru.html</loc>
     <lastmod>2026-07-15</lastmod>
@@ -38,182 +36,658 @@
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
-  <!-- Articles: Vinh tru -->
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/cach-chon-gyoseishoshi.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
   <url>
     <loc>https://vietnam-japan-guide.com/articles/vinh-tru/dieu-kien-xin-vinh-tru-nhat-ban.html</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.90</priority>
+    <priority>0.70</priority>
   </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/thu-nhap-yeu-cau-xin-vinh-tru.html</loc>
-    <lastmod>2026-07-14</lastmod>
+    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/eijyu-fukyoka-sai-shinsei.html</loc>
+    <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
   </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/nenkin-cham-nop-anh-huong-vinh-tru.html</loc>
-    <lastmod>2026-07-13</lastmod>
+    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/eijyu-go-tetsuzuki.html</loc>
+    <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
+    <priority>0.30</priority>
   </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/nguoi-bao-lanh-vinh-tru.html</loc>
-    <lastmod>2026-07-12</lastmod>
+    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/eijyu-torikeshi.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/eijyu-zairyu-card-kankei.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/fukyoka-reki-eikyo.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/fuyou-kazoku-gerasu.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/fuyou-koujo-eikyo.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/gyoseishoshi-ni-tanomu-baai.html</loc>
+    <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
   </url>
   <url>
     <loc>https://vietnam-japan-guide.com/articles/vinh-tru/huong-dan-chuan-bi-ho-so-vinh-tru.html</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
   </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/thoi-gian-xu-ly-ho-so-vinh-tru.html</loc>
-    <lastmod>2026-07-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.60</priority>
-  </url>
-  <url>
-    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/nhap-tich-nhat-ban-thu-tuc.html</loc>
-    <lastmod>2026-07-09</lastmod>
+    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/juminzei-shotokuzei-taino-eikyo.html</loc>
+    <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
   </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/ly-do-ho-so-vinh-tru-bi-tu-choi.html</loc>
-    <lastmod>2026-07-08</lastmod>
+    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/kekkon-eijyu-kikan.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/kika-joken.html</loc>
+    <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
   </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/cach-chon-gyoseishoshi.html</loc>
+    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/kika-koseki-sakusei.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/kika-mensetsu-taisaku.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/kouteki-gimu-juushi.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/koutsuu-ihan-shinkoku.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/minamoto-hoshonin-joken.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/minashi-sainyukoku.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/muryou-soudan-junbi.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/nenkin-cham-nop-anh-huong-vinh-tru.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/nenshuu-shinsa-kijun.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/rikon-go-eijyu-ken.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/riyu-sho-apiru-point.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/riyu-sho-jibun-ka.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/riyu-sho-no-kakikata.html</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
   </url>
   <url>
     <loc>https://vietnam-japan-guide.com/articles/vinh-tru/so-sanh-chi-phi-gyoseishoshi.html</loc>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.60</priority>
-  </url>
-  <url>
-    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/dich-thuat-cong-chung-tai-nhat.html</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.60</priority>
-  </url>
-  <url>
-    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/gyoseishoshi-tokyo-osaka-nagoya.html</loc>
-    <lastmod>2026-07-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.60</priority>
-  </url>
-  <!-- Articles: Visa -->
-  <url>
-    <loc>https://vietnam-japan-guide.com/articles/visa/chuyen-doi-cong-ty-visa-ky-su.html</loc>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://vietnam-japan-guide.com/articles/visa/tokutei-ginou-chuyen-ky-su.html</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://vietnam-japan-guide.com/articles/visa/gia-han-visa-tokutei-ginou.html</loc>
-    <lastmod>2026-07-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://vietnam-japan-guide.com/articles/visa/visa-gia-dinh-bao-lanh-vo-chong-con.html</loc>
-    <lastmod>2026-07-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://vietnam-japan-guide.com/articles/visa/visa-bi-tu-choi-cach-khac-phuc.html</loc>
-    <lastmod>2026-07-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://vietnam-japan-guide.com/articles/visa/visa-kinh-doanh-quan-ly.html</loc>
-    <lastmod>2026-07-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
-  </url>
-  <!-- Articles: Sinh hoat -->
-  <url>
-    <loc>https://vietnam-japan-guide.com/articles/sinh-hoat/cach-lay-juminhyo-va-kazei-shomeisho.html</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.30</priority>
   </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/articles/sinh-hoat/mynumber-card-loi-ich-cach-lam.html</loc>
-    <lastmod>2026-07-14</lastmod>
+    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/sokou-zenryo-yoken.html</loc>
+    <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.60</priority>
+    <priority>0.30</priority>
   </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/articles/sinh-hoat/mat-zairyu-card-cach-xu-ly.html</loc>
-    <lastmod>2026-07-13</lastmod>
+    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/teijusha-oyobi-yose.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/tenshoku-taishoku-chu.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/vinh-tru/vietnam-kokuseki-ridatsu.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/visa/bekkyo-haiguusha-visa.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/visa/betsukyo-koushin.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/visa/dokushin-shomeisho.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/visa/freelance-visa-note.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/visa/gijinkoku-internship.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/visa/gijinkoku-koushin.html</loc>
+    <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
   </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/articles/sinh-hoat/sinh-con-tai-nhat-ban-thu-tuc.html</loc>
-    <lastmod>2026-07-12</lastmod>
+    <loc>https://vietnam-japan-guide.com/articles/visa/gijinkoku-yakuin.html</loc>
+    <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.60</priority>
+    <priority>0.30</priority>
   </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/articles/sinh-hoat/bao-hiem-y-te-nhat-ban.html</loc>
-    <lastmod>2026-07-11</lastmod>
+    <loc>https://vietnam-japan-guide.com/articles/visa/ginou-jisshuu-tokutei.html</loc>
+    <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.60</priority>
+    <priority>0.30</priority>
   </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/articles/sinh-hoat/thue-nha-tai-nhat-bi-quyet.html</loc>
-    <lastmod>2026-07-10</lastmod>
+    <loc>https://vietnam-japan-guide.com/articles/visa/haiguusha-fuyou-koujo.html</loc>
+    <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.60</priority>
+    <priority>0.30</priority>
   </url>
-  <!-- Articles: Cong viec -->
   <url>
-    <loc>https://vietnam-japan-guide.com/articles/cong-viec/so-sanh-dich-vu-chuyen-tien-ve-viet-nam.html</loc>
-    <lastmod>2026-07-12</lastmod>
+    <loc>https://vietnam-japan-guide.com/articles/visa/haiguusha-shuro-seigen.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/visa/haiguusha-visa-fukyoka.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/visa/haken-shain-visa.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/visa/kaisha-tousan-visa.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/visa/kazoku-taizai-arubaito.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/visa/keiei-iken-shin.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/visa/kekkon-nyukan-shinsei.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/visa/kodo-point-simulation.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/visa/kodo-senmonshoku-hikaku.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/visa/kodomo-sodateru-zairyu.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/visa/konyaku-tanki-kekkon.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/visa/nihongo-n1n2-eikyo.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/visa/rikon-chotei-koushin.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/visa/rikon-go-taizai-hoho.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/visa/shitsumonsho-kakikata.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/visa/shiyo-kikan-koushin.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/visa/shussan-ikuji-visa.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/visa/tenshoku-saki-fukyoka.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/visa/tokutei-1go-2go-sai.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/visa/tokutei-2go-henkou.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/visa/tokutei-tenseki-kitei.html</loc>
+    <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
   </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/articles/cong-viec/chuyen-viec-tai-nhat-ban.html</loc>
-    <lastmod>2026-07-11</lastmod>
+    <loc>https://vietnam-japan-guide.com/articles/visa/visa-skeleton-01.html</loc>
+    <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
+    <priority>0.30</priority>
   </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/articles/cong-viec/khai-thue-cuoi-nam-tai-nhat.html</loc>
-    <lastmod>2026-07-10</lastmod>
+    <loc>https://vietnam-japan-guide.com/articles/visa/visa-skeleton-02.html</loc>
+    <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.60</priority>
+    <priority>0.30</priority>
   </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/articles/cong-viec/bao-hiem-xa-hoi-shakai-hoken.html</loc>
-    <lastmod>2026-07-09</lastmod>
+    <loc>https://vietnam-japan-guide.com/articles/visa/visa-skeleton-03.html</loc>
+    <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.60</priority>
+    <priority>0.30</priority>
   </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/articles/cong-viec/nenkin-thoat-ly-tam-thoi.html</loc>
-    <lastmod>2026-07-08</lastmod>
+    <loc>https://vietnam-japan-guide.com/articles/visa/visa-skeleton-04.html</loc>
+    <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.60</priority>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/visa/visa-skeleton-05.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/visa/visa-skeleton-06.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/visa/visa-skeleton-07.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/visa/visa-skeleton-08.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/visa/visa-skeleton-09.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/visa/visa-skeleton-10.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/visa/visa-skeleton-11.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/visa/visa-skeleton-12.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/visa/visa-skeleton-13.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/sinh-hoat/credit-card-shinsa.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/sinh-hoat/haiguusha-raiyu-toroku.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/sinh-hoat/hoshou-gaisha-riyou.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/sinh-hoat/idp- unten-kikan.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/sinh-hoat/juminzei-choshu-hikaku.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/sinh-hoat/kenko-hoken-shikumi.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/sinh-hoat/life-skeleton-01.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/sinh-hoat/life-skeleton-02.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/sinh-hoat/life-skeleton-03.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/sinh-hoat/life-skeleton-04.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/sinh-hoat/life-skeleton-05.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/sinh-hoat/life-skeleton-06.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/sinh-hoat/life-skeleton-07.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/sinh-hoat/life-skeleton-08.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/sinh-hoat/life-skeleton-09.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/sinh-hoat/life-skeleton-10.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/sinh-hoat/seimei-hoken-erabikata.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/cong-viec/fuyou-kazoku-yobiyose-zei.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/cong-viec/fuyou-koujo-setsuzei.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/cong-viec/gaikokujin-shisan-unyou.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/cong-viec/gijinkoku-nenshuu.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/cong-viec/ginko-sokin-hikaku.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/cong-viec/it-engineer-visa.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/cong-viec/juutaku-loan-gaikokujin.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/cong-viec/kakutei-shinkoku-hitsuyo.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/cong-viec/kyuuryou-meisai-yomikata.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/cong-viec/nenkin-dattai-ikiru-eikyo.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/cong-viec/roudou-keiyakusho-point.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/cong-viec/shihonkin-junbi-note.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/cong-viec/souzoku-zozei-kiso.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/cong-viec/taishoku-go-juminzei.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/cong-viec/tokutei-ginou-kyuujin.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/cong-viec/vietnam-engineer-it.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://vietnam-japan-guide.com/articles/chuyen-gia/soudan-taimingu-matome.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
   </url>
 </urlset>
