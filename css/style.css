@@ -1,3 +1,4 @@
+
 /* ============================================
    Vietnam Japan Guide - Redesigned UI
    デザインコンセプト: Trust / Sophisticated / Intuitive
@@ -930,6 +931,8 @@ p { margin-bottom: var(--sp-4); }
   color: rgba(255,255,255,0.8);
   padding: var(--sp-12) 0 var(--sp-8);
   margin-top: var(--sp-12);
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .footer__grid {
@@ -950,11 +953,13 @@ p { margin-bottom: var(--sp-4); }
   margin-bottom: var(--sp-4);
 }
 
+.footer__links { list-style: none; padding: 0; }
 .footer__links li { margin-bottom: var(--sp-2); }
 .footer__links a {
   color: rgba(255,255,255,0.7);
   font-size: var(--fs-sm);
   transition: all var(--transition);
+  word-break: break-word;
 }
 .footer__links a:hover { color: var(--color-accent); padding-left: 2px; }
 
@@ -970,6 +975,8 @@ p { margin-bottom: var(--sp-4); }
   margin-right: auto;
   padding-left: var(--sp-6);
   padding-right: var(--sp-6);
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 /* ---------- Animations ---------- */
