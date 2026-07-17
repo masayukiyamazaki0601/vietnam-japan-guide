@@ -7,11 +7,6 @@
     <priority>1.00</priority>
   </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/pages/jobs.html</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-  </url>
   <url>
     <loc>https://vietnam-japan-guide.com/pages/visa.html</loc>
     <lastmod>2026-07-15</lastmod>
@@ -31,23 +26,8 @@
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/pages/telecom.html</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-  </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/pages/estate.html</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-  </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/pages/chuyen-gia.html</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-  </url>
   <url>
     <loc>https://vietnam-japan-guide.com/pages/vinh-tru.html</loc>
     <lastmod>2026-07-15</lastmod>
@@ -199,41 +179,11 @@
     <priority>0.50</priority>
   </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/articles/estate/house-shoki-hiyou.html</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/articles/estate/estate-ur.html</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/articles/estate/estate-sharehouse.html</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/articles/estate/house-hoshounin-free.html</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/articles/estate/house-bds-tokyo.html</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/articles/estate/house-loan.html</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
   <url>
     <loc>https://vietnam-japan-guide.com/articles/visa/visa-tokutei-nhahang.html</loc>
     <lastmod>2026-07-15</lastmod>
@@ -493,41 +443,11 @@
     <priority>0.50</priority>
   </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/articles/telecom/telecom-sim-price.html</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/articles/telecom/telecom-wifi-free.html</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/articles/telecom/telecom-pocket-wifi.html</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/articles/telecom/telecom-hikari.html</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/articles/telecom/telecom-rakuten-mobile.html</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/articles/telecom/telecom-line-mobile.html</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
   <url>
     <loc>https://vietnam-japan-guide.com/articles/vinh-tru/kekkon-eijyu-kikan.html</loc>
     <lastmod>2026-07-15</lastmod>
@@ -721,47 +641,12 @@
     <priority>0.50</priority>
   </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/articles/chuyen-gia/soudan-taimingu-matome.html</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/articles/jobs/job-it-engineer.html</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/articles/jobs/job-giovien-jp.html</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/articles/jobs/job-tim-viec.html</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/articles/jobs/job-mensetsu.html</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/articles/jobs/job-tokutei-resutoran.html</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
   <url>
-    <loc>https://vietnam-japan-guide.com/articles/jobs/job-rirekisho.html</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
   <url>
     <loc>https://vietnam-japan-guide.com/articles/sinh-hoat/haiguusha-raiyu-toroku.html</loc>
     <lastmod>2026-07-15</lastmod>
