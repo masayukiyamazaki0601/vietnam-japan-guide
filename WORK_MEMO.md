@@ -1,4 +1,4 @@
-# 作業メモ - Vietnam Japan Guide SEO内部リンク最適化
+こn# 作業メモ - Vietnam Japan Guide SEO内部リンク最適化
 
 ## サイト基本情報
 - テーマ: 在日ベトナム人向け生活総合情報サイト
