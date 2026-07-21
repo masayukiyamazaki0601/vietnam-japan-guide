@@ -16,19 +16,22 @@
 9. ✅ vietnam-kokuseki-ridatsu（ベトナム国籍離脱）- JP版og/hreflang/JSON-LD追加、vi版og/JSON-LD修正
 10. ✅ kouteki-gimu-juushi（公的義務履行の重要性）- vi版og/JSON-LD修正
 
-## 残タスク: あと7記事
+## 今回（2026/7/22）対応済み: 5記事
 
-### ❌ JP版SEO未対応 + vi翻訳未確認
-- eijyu-fukyoka-sai-shinsei（不許可からの再申請）
-- tenshoku-taishoku-chu（転職中の永住申請）
-- teijusha-oyobi-yose（定住者と永住者の違い）
+### ✅ JP版SEO最適化（hreflang/og/JSON-LD/keywords追加）
+1. ✅ eijyu-fukyoka-sai-shinsei（不許可からの再申請）- og/hreflang/JSON-LD/keywords追加
+2. ✅ tenshoku-taishoku-chu（転職中の永住申請）- hreflang追加
+3. ✅ teijusha-oyobi-yose（定住者と永住者の違い）- og/hreflang/JSON-LD追加
+4. ✅ nenkin-cham-nop-anh-huong-vinh-tru（年金未納の影響）- og/hreflang/JSON-LD追加
+5. ✅ nenshuu-shinsa-kijun（年収要件）- hreflang追加
 
-### ❌ vi翻訳のみ存在（SEOタグ不足の可能性あり）
-- nenkin-cham-nop-anh-huong-vinh-tru（年金未納の影響）
-- nenshuu-shinsa-kijun（年収要件）
+### ✅ vi翻訳完了（本文＋SEOタグベトナム語化）
+1. ✅ nenkin-cham-nop-anh-huong-vinh-tru（年金未納の影響）- 本文・SEOタグ翻訳
+2. ✅ nenshuu-shinsa-kijun（年収要件）- 本文・SEOタグ翻訳
 
-### ❌ 完全未処理
-- （その他未確認の差分）
+## 残タスク: あと0記事（vinh-truカテゴリ全ファイル対応完了）
+- vinh-truカテゴリのJP版SEO（og/hreflang/JSON-LD）は全ファイル対応済み
+- vi翻訳未完了の記事（eijyu-fukyoka-sai-shinsei, tenshoku-taishoku-chu, teijusha-oyobi-yose）は次フェーズで対応
 
 ## 注意点
 - vi版の内部リンクは全て日本語版（.html）を指すこと
