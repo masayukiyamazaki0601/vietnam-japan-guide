@@ -1,0 +1,67 @@
+# netlify.toml - vietnam-japan-guide
+# Language-based redirect: Japanese visitors → /ja/, Vietnamese visitors → /vi/
+
+[[redirects]]
+  from = "/"
+  to = "/ja"
+  status = 200
+  conditions = {Language = ["ja"]}
+
+[[redirects]]
+  from = "/"
+  to = "/vi"
+  status = 200
+  conditions = {Language = ["vi"]}
+
+[[redirects]]
+  from = "/"
+  to = "/ja"
+  status = 200
+
+# pages/ redirects
+[[redirects]]
+  from = "/pages/*"
+  to = "/ja/pages/:splat"
+  status = 200
+  conditions = {Language = ["ja"]}
+
+[[redirects]]
+  from = "/pages/*"
+  to = "/vi/pages/:splat"
+  status = 200
+  conditions = {Language = ["vi"]}
+
+[[redirects]]
+  from = "/pages/*"
+  to = "/ja/pages/:splat"
+  status = 200
+
+# articles/ redirects (for backward compatibility with old URLs)
+[[redirects]]
+  from = "/articles/*"
+  to = "/ja/articles/:splat"
+  status = 200
+  conditions = {Language = ["ja"]}
+
+[[redirects]]
+  from = "/articles/*"
+  to = "/vi/articles/:splat"
+  status = 200
+  conditions = {Language = ["vi"]}
+
+[[redirects]]
+  from = "/articles/*"
+  to = "/ja/articles/:splat"
+  status = 200
+
+# .vi.html old URLs → new vi/ subdirectory
+[[redirects]]
+  from = "/articles/*.vi.html"
+  to = "/vi/articles/:splat"
+  status = 301
+
+# Sitemap
+[[redirects]]
+  from = "/sitemap.xml"
+  to = "/sitemap.xml"
+  status = 200
