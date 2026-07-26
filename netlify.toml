@@ -7,18 +7,21 @@
   from = "/"
   to = "/ja"
   status = 200
+  force = true
   conditions = {Language = ["ja"]}
 
 [[redirects]]
   from = "/"
   to = "/vi"
   status = 200
+  force = true
   conditions = {Language = ["vi"]}
 
 [[redirects]]
   from = "/"
   to = "/ja"
   status = 200
+  force = true
 
 # pages/ redirects
 [[redirects]]
