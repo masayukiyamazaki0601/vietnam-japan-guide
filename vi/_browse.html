@@ -3,53 +3,211 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Danh sách bài viết Vĩnh trú</title>
+<title>Danh sách tất cả bài viết - Vietnam Japan Guide</title>
 <style>
-body { font-family: sans-serif; margin: 20px; background: #f5f5f5; }
-h1 { color: #333; }
-.cat { background: #e74c3c; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; }
-ul { list-style: none; padding: 0; }
-li { margin: 6px 0; padding: 10px; background: white; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
-a { color: #2980b9; text-decoration: none; font-size: 14px; }
-a:hover { text-decoration: underline; }
+* { box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 0; padding: 20px; background: #f0f2f5; color: #333; }
+h1 { text-align: center; color: #1a1a2e; margin-bottom: 5px; font-size: 24px; }
+.subtitle { text-align: center; color: #666; margin-bottom: 30px; font-size: 14px; }
+.cat-header { display: flex; align-items: center; gap: 10px; padding: 12px 16px; border-radius: 8px; margin: 16px 0 10px 0; font-size: 16px; font-weight: 700; }
+.cat-vinh-tru { background: #e8f4f8; color: #0d6efd; }
+.cat-visa { background: #fef3e2; color: #d97706; }
+.cat-sinh-hoat { background: #e8f8e8; color: #16a34a; }
+.cat-cong-viec { background: #f3e8ff; color: #7c3aed; }
+.cat-count { font-size: 12px; font-weight: 400; opacity: 0.7; margin-left: auto; }
+ul { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 6px; }
+li { margin: 0; padding: 0; }
+a { display: block; padding: 10px 14px; background: white; border-radius: 6px; color: #2563eb; text-decoration: none; font-size: 13px; line-height: 1.4; box-shadow: 0 1px 2px rgba(0,0,0,0.06); transition: all 0.15s; }
+a:hover { background: #eff6ff; transform: translateY(-1px); box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+.badge { display: inline-block; font-size: 10px; padding: 2px 6px; border-radius: 3px; margin-left: 6px; font-weight: 600; vertical-align: middle; }
+.badge-vinh-tru { background: #e8f4f8; color: #0d6efd; }
+.badge-visa { background: #fef3e2; color: #d97706; }
+.badge-sinh-hoat { background: #e8f8e8; color: #16a34a; }
+.badge-cong-viec { background: #f3e8ff; color: #7c3aed; }
+.stats { text-align: center; margin: 20px 0; font-size: 13px; color: #888; }
+@media (max-width: 600px) { ul { grid-template-columns: 1fr; } body { padding: 10px; } }
 </style>
 </head>
 <body>
-<h1>🇻🇳 Bài viết Vĩnh trú & Nhập tịch (ベトナム語 永住権記事一覧)</h1>
+
+<h1>🇻🇳 Vietnam Japan Guide</h1>
+<p class="subtitle">Danh sách tất cả bài viết tiếng Việt (Tổng cộng 150 bài)</p>
+
+<div class="stats">
+  🛂 Vĩnh trú: 32 bài &nbsp;|&nbsp; 📋 Visa: 56 bài &nbsp;|&nbsp; 🏠 Đời sống: 37 bài &nbsp;|&nbsp; 💼 Công việc: 26 bài &nbsp;|&nbsp; <a href="index.html">⬅ Về trang chủ</a>
+</div>
+
+<!-- ===== VINH TRU ===== -->
+<div class="cat-header cat-vinh-tru">🛂 Vĩnh trú & Nhập tịch <span class="cat-count">32 bài</span></div>
 <ul>
-<li><a href="articles/vinh-tru/dieu-kien-xin-vinh-tru-nhat-ban.html">📄 Điều kiện xin vĩnh trú Nhật Bản 2026</a> <span class="cat">Cơ bản</span></li>
-<li><a href="articles/vinh-tru/nenshuu-shinsa-kijun.html">💵 Yêu cầu thu nhập khi xin vĩnh trú</a> <span class="cat">Cơ bản</span></li>
-<li><a href="articles/vinh-tru/sokou-zenryo-yoken.html">🔍 Điều kiện "phẩm chất đạo đức tốt"</a> <span class="cat">Cơ bản</span></li>
-<li><a href="articles/vinh-tru/kouteki-gimu-juushi.html">⚖️ Tầm quan trọng của nghĩa vụ công dân</a> <span class="cat">Cơ bản</span></li>
-<li><a href="articles/vinh-tru/huong-dan-chuan-bi-ho-so-vinh-tru.html">📄 Danh sách hồ sơ cần chuẩn bị</a> <span class="cat">Hồ sơ</span></li>
-<li><a href="articles/vinh-tru/kekkon-eijyu-kikan.html">💍 Kết hôn với người Nhật: Sau bao lâu xin vĩnh trú?</a> <span class="cat">Vợ/chồng</span></li>
-<li><a href="articles/vinh-tru/rikon-go-eijyu-ken.html">💔 Ly hôn sau khi có vĩnh trú</a> <span class="cat">Vợ/chồng</span></li>
-<li><a href="articles/vinh-tru/eijyu-go-tetsuzuki.html">📋 Thủ tục sau khi được vĩnh trú</a> <span class="cat">Thủ tục</span></li>
-<li><a href="articles/vinh-tru/eijyu-zairyu-card-kankei.html">🪪 Có cần gia hạn vĩnh trú? Quan hệ với thẻ cư trú</a> <span class="cat">Thủ tục</span></li>
-<li><a href="articles/vinh-tru/tenshoku-taishoku-chu.html">💼 Đổi việc trong thời gian xét hồ sơ vĩnh trú</a> <span class="cat">Thủ tục</span></li>
-<li><a href="articles/vinh-tru/eijyu-fukyoka-sai-shinsei.html">🔄 Vĩnh trú bị từ chối → Nộp lại</a> <span class="cat">Lưu ý</span></li>
-<li><a href="articles/vinh-tru/eijyu-torikeshi.html">⚠️ Trường hợp bị hủy vĩnh trú</a> <span class="cat">Lưu ý</span></li>
-<li><a href="articles/vinh-tru/fukyoka-reki-eikyo.html">📜 Lịch sử bị từ chối visa ảnh hưởng đến vĩnh trú?</a> <span class="cat">Lưu ý</span></li>
-<li><a href="articles/vinh-tru/minashi-sainyukoku.html">✈️ Chế độ tái nhập cảnh giả định (1 năm)</a> <span class="cat">Lưu ý</span></li>
-<li><a href="articles/vinh-tru/koutsuu-ihan-shinkoku.html">🚗 Khai báo vi phạm giao thông</a> <span class="cat">Lưu ý</span></li>
-<li><a href="articles/vinh-tru/riyu-sho-no-kakikata.html">📝 Cách viết đơn lý do (kèm mẫu)</a> <span class="cat">Hồ sơ</span></li>
-<li><a href="articles/vinh-tru/riyu-sho-apiru-point.html">✍️ Điểm tự PR trong đơn lý do</a> <span class="cat">Hồ sơ</span></li>
-<li><a href="articles/vinh-tru/riyu-sho-jibun-ka.html">✍️ Tự viết đơn lý do hay nhờ chuyên gia?</a> <span class="cat">Hồ sơ</span></li>
-<li><a href="articles/vinh-tru/minamoto-hoshonin-joken.html">🤝 Điều kiện người bảo lãnh</a> <span class="cat">Hồ sơ</span></li>
-<li><a href="articles/vinh-tru/juminzei-shotokuzei-taino-eikyo.html">🏛️ Chậm nộp thuế cư trú & thu nhập</a> <span class="cat">Thuế</span></li>
-<li><a href="articles/vinh-tru/nenkin-cham-nop-anh-huong-vinh-tru.html">📅 Chậm đóng lương hưu và vĩnh trú</a> <span class="cat">Thuế</span></li>
-<li><a href="articles/vinh-tru/fuyou-koujo-eikyo.html">🧮 Khấu trừ người phụ thuộc</a> <span class="cat">Thuế</span></li>
-<li><a href="articles/vinh-tru/fuyou-kazoku-gerasu.html">👨‍👩‍👧 Giảm người phụ thuộc</a> <span class="cat">Thuế</span></li>
-<li><a href="articles/vinh-tru/kika-joken.html">🇯🇵 Điều kiện nhập quốc tịch Nhật Bản</a> <span class="cat">Nhập tịch</span></li>
-<li><a href="articles/vinh-tru/kika-koseki-sakusei.html">📝 Tạo hộ tịch sau nhập tịch</a> <span class="cat">Nhập tịch</span></li>
-<li><a href="articles/vinh-tru/kika-mensetsu-taisaku.html">🎙️ Phỏng vấn nhập tịch</a> <span class="cat">Nhập tịch</span></li>
-<li><a href="articles/vinh-tru/vietnam-kokuseki-ridatsu.html">🌏 Thủ tục thôi quốc tịch Việt Nam</a> <span class="cat">Nhập tịch</span></li>
-<li><a href="articles/vinh-tru/cach-chon-gyoseishoshi.html">🔍 Cách chọn Gyoseishoshi giỏi</a> <span class="cat">Tư vấn</span></li>
-<li><a href="articles/vinh-tru/gyoseishoshi-ni-tanomu-baai.html">🤔 Ai nên nhờ Gyoseishoshi?</a> <span class="cat">Tư vấn</span></li>
-<li><a href="articles/vinh-tru/so-sanh-chi-phi-gyoseishoshi.html">🏷️ So sánh chi phí Gyoseishoshi</a> <span class="cat">Tư vấn</span></li>
-<li><a href="articles/vinh-tru/muryou-soudan-junbi.html">💬 Chuẩn bị trước tư vấn miễn phí</a> <span class="cat">Tư vấn</span></li>
-<li><a href="articles/vinh-tru/teijusha-oyobi-yose.html">👨‍👩‍👧 Bảo lãnh cha mẹ (Teijusha)</a> <span class="cat">Gia đình</span></li>
+<li><a href="articles/vinh-tru/dieu-kien-xin-vinh-tru-nhat-ban.html">📄 Điều kiện xin vĩnh trú Nhật Bản 2026 <span class="badge badge-vinh-tru">Cơ bản</span></a></li>
+<li><a href="articles/vinh-tru/nenshuu-shinsa-kijun.html">💵 Yêu cầu thu nhập khi xin vĩnh trú <span class="badge badge-vinh-tru">Cơ bản</span></a></li>
+<li><a href="articles/vinh-tru/sokou-zenryo-yoken.html">🔍 Điều kiện "phẩm chất đạo đức tốt" <span class="badge badge-vinh-tru">Cơ bản</span></a></li>
+<li><a href="articles/vinh-tru/kouteki-gimu-juushi.html">⚖️ Tầm quan trọng của nghĩa vụ công dân <span class="badge badge-vinh-tru">Cơ bản</span></a></li>
+<li><a href="articles/vinh-tru/huong-dan-chuan-bi-ho-so-vinh-tru.html">📄 Danh sách hồ sơ cần chuẩn bị <span class="badge badge-vinh-tru">Hồ sơ</span></a></li>
+<li><a href="articles/vinh-tru/riyu-sho-no-kakikata.html">📝 Cách viết đơn lý do (kèm mẫu) <span class="badge badge-vinh-tru">Hồ sơ</span></a></li>
+<li><a href="articles/vinh-tru/riyu-sho-apiru-point.html">✍️ Điểm tự PR trong đơn lý do <span class="badge badge-vinh-tru">Hồ sơ</span></a></li>
+<li><a href="articles/vinh-tru/riyu-sho-jibun-ka.html">✍️ Tự viết đơn lý do hay nhờ chuyên gia? <span class="badge badge-vinh-tru">Hồ sơ</span></a></li>
+<li><a href="articles/vinh-tru/minamoto-hoshonin-joken.html">🤝 Điều kiện người bảo lãnh <span class="badge badge-vinh-tru">Hồ sơ</span></a></li>
+<li><a href="articles/vinh-tru/kekkon-eijyu-kikan.html">💍 Kết hôn với người Nhật: Sau bao lâu xin vĩnh trú? <span class="badge badge-vinh-tru">Vợ/chồng</span></a></li>
+<li><a href="articles/vinh-tru/rikon-go-eijyu-ken.html">💔 Ly hôn sau khi có vĩnh trú <span class="badge badge-vinh-tru">Vợ/chồng</span></a></li>
+<li><a href="articles/vinh-tru/eijyu-go-tetsuzuki.html">📋 Thủ tục sau khi được vĩnh trú <span class="badge badge-vinh-tru">Thủ tục</span></a></li>
+<li><a href="articles/vinh-tru/eijyu-zairyu-card-kankei.html">🪪 Có cần gia hạn vĩnh trú? Quan hệ với thẻ cư trú <span class="badge badge-vinh-tru">Thủ tục</span></a></li>
+<li><a href="articles/vinh-tru/tenshoku-taishoku-chu.html">💼 Đổi việc trong thời gian xét hồ sơ vĩnh trú <span class="badge badge-vinh-tru">Thủ tục</span></a></li>
+<li><a href="articles/vinh-tru/eijyu-fukyoka-sai-shinsei.html">🔄 Vĩnh trú bị từ chối → Nộp lại <span class="badge badge-vinh-tru">Lưu ý</span></a></li>
+<li><a href="articles/vinh-tru/eijyu-torikeshi.html">⚠️ Trường hợp bị hủy vĩnh trú <span class="badge badge-vinh-tru">Lưu ý</span></a></li>
+<li><a href="articles/vinh-tru/fukyoka-reki-eikyo.html">📜 Lịch sử bị từ chối visa ảnh hưởng đến vĩnh trú? <span class="badge badge-vinh-tru">Lưu ý</span></a></li>
+<li><a href="articles/vinh-tru/minashi-sainyukoku.html">✈️ Chế độ tái nhập cảnh giả định (1 năm) <span class="badge badge-vinh-tru">Lưu ý</span></a></li>
+<li><a href="articles/vinh-tru/koutsuu-ihan-shinkoku.html">🚗 Khai báo vi phạm giao thông <span class="badge badge-vinh-tru">Lưu ý</span></a></li>
+<li><a href="articles/vinh-tru/juminzei-shotokuzei-taino-eikyo.html">🏛️ Chậm nộp thuế cư trú & thu nhập <span class="badge badge-vinh-tru">Thuế</span></a></li>
+<li><a href="articles/vinh-tru/nenkin-cham-nop-anh-huong-vinh-tru.html">📅 Chậm đóng lương hưu và vĩnh trú <span class="badge badge-vinh-tru">Thuế</span></a></li>
+<li><a href="articles/vinh-tru/fuyou-koujo-eikyo.html">🧮 Khấu trừ người phụ thuộc <span class="badge badge-vinh-tru">Thuế</span></a></li>
+<li><a href="articles/vinh-tru/fuyou-kazoku-gerasu.html">👨‍👩‍👧 Giảm người phụ thuộc <span class="badge badge-vinh-tru">Thuế</span></a></li>
+<li><a href="articles/vinh-tru/kika-joken.html">🇯🇵 Điều kiện nhập quốc tịch Nhật Bản <span class="badge badge-vinh-tru">Nhập tịch</span></a></li>
+<li><a href="articles/vinh-tru/kika-koseki-sakusei.html">📝 Tạo hộ tịch sau nhập tịch <span class="badge badge-vinh-tru">Nhập tịch</span></a></li>
+<li><a href="articles/vinh-tru/kika-mensetsu-taisaku.html">🎙️ Phỏng vấn nhập tịch <span class="badge badge-vinh-tru">Nhập tịch</span></a></li>
+<li><a href="articles/vinh-tru/vietnam-kokuseki-ridatsu.html">🌏 Thủ tục thôi quốc tịch Việt Nam <span class="badge badge-vinh-tru">Nhập tịch</span></a></li>
+<li><a href="articles/vinh-tru/cach-chon-gyoseishoshi.html">🔍 Cách chọn Gyoseishoshi giỏi <span class="badge badge-vinh-tru">Tư vấn</span></a></li>
+<li><a href="articles/vinh-tru/gyoseishoshi-ni-tanomu-baai.html">🤔 Ai nên nhờ Gyoseishoshi? <span class="badge badge-vinh-tru">Tư vấn</span></a></li>
+<li><a href="articles/vinh-tru/so-sanh-chi-phi-gyoseishoshi.html">🏷️ So sánh chi phí Gyoseishoshi <span class="badge badge-vinh-tru">Tư vấn</span></a></li>
+<li><a href="articles/vinh-tru/muryou-soudan-junbi.html">💬 Chuẩn bị trước tư vấn miễn phí <span class="badge badge-vinh-tru">Tư vấn</span></a></li>
+<li><a href="articles/vinh-tru/teijusha-oyobi-yose.html">👨‍👩‍👧 Bảo lãnh cha mẹ (Teijusha) <span class="badge badge-vinh-tru">Gia đình</span></a></li>
 </ul>
-<p style="margin-top:20px; color:#888;">※ リンクをクリックすると各記事が開きます</p>
+
+<!-- ===== VISA ===== -->
+<div class="cat-header cat-visa">📋 Visa & Tư cách lưu trú <span class="cat-count">56 bài</span></div>
+<ul>
+<li><a href="articles/visa/visa-skeleton-01.html">📋 Điều kiện chuyển từ Kỹ năng đặc định sang visa Gijinkoku <span class="badge badge-visa">Cơ bản</span></a></li>
+<li><a href="articles/visa/visa-skeleton-02.html">📋 Kiến thức cơ bản về visa Gijinkoku <span class="badge badge-visa">Cơ bản</span></a></li>
+<li><a href="articles/visa/visa-skeleton-03.html">📋 Kiến thức cơ bản về visa Kỹ năng đặc định <span class="badge badge-visa">Cơ bản</span></a></li>
+<li><a href="articles/visa/visa-skeleton-04.html">📋 Kiến thức cơ bản về visa hôn phối (vợ/chồng người Nhật) <span class="badge badge-visa">Cơ bản</span></a></li>
+<li><a href="articles/visa/visa-skeleton-05.html">📋 Chuyển từ visa du học sang visa lao động <span class="badge badge-visa">Cơ bản</span></a></li>
+<li><a href="articles/visa/visa-skeleton-06.html">📋 Có thể làm việc trái ngành với visa Gijinkoku không? <span class="badge badge-visa">Cơ bản</span></a></li>
+<li><a href="articles/visa/visa-skeleton-07.html">📋 Visa hoạt động cụ thể (tìm việc) thời hạn và gia hạn <span class="badge badge-visa">Cơ bản</span></a></li>
+<li><a href="articles/visa/visa-skeleton-08.html">📋 Thời gian gia hạn visa và cách xử lý khi sắp hết hạn <span class="badge badge-visa">Cơ bản</span></a></li>
+<li><a href="articles/visa/visa-skeleton-09.html">📋 Cách xử lý khi nhận được thông báo nộp bổ sung tài liệu <span class="badge badge-visa">Cơ bản</span></a></li>
+<li><a href="articles/visa/visa-skeleton-10.html">📋 Visa bị từ chối! Những việc cần làm ngay <span class="badge badge-visa">Cơ bản</span></a></li>
+<li><a href="articles/visa/visa-skeleton-11.html">📋 Sự khác biệt giữa tái nhập cảnh và tái nhập cảnh giả định <span class="badge badge-visa">Cơ bản</span></a></li>
+<li><a href="articles/visa/visa-skeleton-12.html">📋 Quy trình xin visa quản lý kinh doanh và yêu cầu vốn <span class="badge badge-visa">Cơ bản</span></a></li>
+<li><a href="articles/visa/visa-skeleton-13.html">📋 Có thể làm thêm hoặc kinh doanh phụ với visa Gijinkoku không? <span class="badge badge-visa">Cơ bản</span></a></li>
+<li><a href="articles/visa/gijinkoku-koushin.html">📋 Hướng dẫn đầy đủ thủ tục gia hạn visa Gijinkoku <span class="badge badge-visa">Gijinkoku</span></a></li>
+<li><a href="articles/visa/gijinkoku-internship.html">📋 Visa Gijinkoku và thực tập (Internship) <span class="badge badge-visa">Gijinkoku</span></a></li>
+<li><a href="articles/visa/gijinkoku-yakuin.html">📋 Cách người có visa Gijinkoku trở thành giám đốc công ty <span class="badge badge-visa">Gijinkoku</span></a></li>
+<li><a href="articles/visa/visa-kysu-chuyenviec.html">📋 Hướng dẫn đầy đủ thủ tục chuyển việc visa Gijinkoku <span class="badge badge-visa">Gijinkoku</span></a></li>
+<li><a href="articles/visa/visa-kysu-hocvan.html">📋 Yêu cầu học vấn và bằng cấp cho visa Gijinkoku <span class="badge badge-visa">Gijinkoku</span></a></li>
+<li><a href="articles/visa/visa-kysu-lamthem.html">📋 Có thể làm thêm với visa Gijinkoku không? <span class="badge badge-visa">Gijinkoku</span></a></li>
+<li><a href="articles/visa/visa-kysu-trainghanh.html">📋 Cách và rủi ro làm việc trái ngành với visa Gijinkoku <span class="badge badge-visa">Gijinkoku</span></a></li>
+<li><a href="articles/visa/visa-baolanh-vo.html">📋 Cách bảo lãnh vợ với visa Gijinkoku <span class="badge badge-visa">Gijinkoku</span></a></li>
+<li><a href="articles/visa/tokutei-1go-2go-sai.html">📋 So sánh Kỹ năng đặc định số 1 và số 2 <span class="badge badge-visa">Kỹ năng</span></a></li>
+<li><a href="articles/visa/tokutei-2go-henkou.html">📋 Điều kiện chuyển sang Kỹ năng đặc định số 2 <span class="badge badge-visa">Kỹ năng</span></a></li>
+<li><a href="articles/visa/tokutei-tenseki-kitei.html">📋 Quy tắc chuyển việc visa Kỹ năng đặc định <span class="badge badge-visa">Kỹ năng</span></a></li>
+<li><a href="articles/visa/visa-tokutei-baolanh.html">📋 Có thể bảo lãnh gia đình với visa Kỹ năng đặc định không? <span class="badge badge-visa">Kỹ năng</span></a></li>
+<li><a href="articles/visa/visa-tokutei-kara-kysu.html">📋 Chuyển từ Kỹ năng đặc định sang visa Gijinkoku <span class="badge badge-visa">Kỹ năng</span></a></li>
+<li><a href="articles/visa/visa-tokutei-nhahang.html">📋 Kỹ năng đặc định (ngành nhà hàng) <span class="badge badge-visa">Kỹ năng</span></a></li>
+<li><a href="articles/visa/visa-tokutei-shiken.html">📋 Cách thi và ôn tập kỳ thi Kỹ năng đặc định <span class="badge badge-visa">Kỹ năng</span></a></li>
+<li><a href="articles/visa/ginou-jisshuu-tokutei.html">📋 Chuyển từ Thực tập kỹ năng sang Kỹ năng đặc định <span class="badge badge-visa">Kỹ năng</span></a></li>
+<li><a href="articles/visa/bekkyo-haiguusha-visa.html">📋 Ly thân có ảnh hưởng đến visa hôn phối không? <span class="badge badge-visa">Hôn phối</span></a></li>
+<li><a href="articles/visa/betsukyo-koushin.html">📋 Gia hạn visa khi sống riêng với vợ/chồng người Nhật <span class="badge badge-visa">Hôn phối</span></a></li>
+<li><a href="articles/visa/haiguusha-visa-fukyoka.html">📋 Lý do visa hôn phối bị từ chối và biện pháp <span class="badge badge-visa">Hôn phối</span></a></li>
+<li><a href="articles/visa/haiguusha-shuro-seigen.html">📋 Giới hạn lao động của visa hôn phối <span class="badge badge-visa">Hôn phối</span></a></li>
+<li><a href="articles/visa/shitsumonsho-kakikata.html">📋 Cách viết bản câu hỏi (Shitsumonsho) cho visa hôn phối <span class="badge badge-visa">Hôn phối</span></a></li>
+<li><a href="articles/visa/visa-kekkon-nihonjin.html">📋 Thủ tục visa khi kết hôn với người Nhật <span class="badge badge-visa">Hôn nhân</span></a></li>
+<li><a href="articles/visa/kekkon-nyukan-shinsei.html">📋 Thủ tục nhập cảnh sau khi kết hôn với người Nhật <span class="badge badge-visa">Hôn nhân</span></a></li>
+<li><a href="articles/visa/konyaku-tanki-kekkon.html">📋 Kết hôn khi đang lưu trú ngắn hạn? <span class="badge badge-visa">Hôn nhân</span></a></li>
+<li><a href="articles/visa/rikon-chotei-koushin.html">📋 Gia hạn visa trong thời gian ly hôn <span class="badge badge-visa">Hôn nhân</span></a></li>
+<li><a href="articles/visa/rikon-go-taizai-hoho.html">📋 Cách ở lại Nhật sau khi ly hôn <span class="badge badge-visa">Hôn nhân</span></a></li>
+<li><a href="articles/visa/visa-rikon-go.html">📋 Ly hôn thì visa sẽ thế nào? <span class="badge badge-visa">Hôn nhân</span></a></li>
+<li><a href="articles/visa/haiguusha-fuyou-koujo.html">📋 Đăng ký vợ/chồng vào diện phụ thuộc <span class="badge badge-visa">Gia đình</span></a></li>
+<li><a href="articles/visa/kazoku-taizai-arubaito.html">📋 Xin phép làm thêm với visa gia đình <span class="badge badge-visa">Gia đình</span></a></li>
+<li><a href="articles/visa/kodomo-sodateru-zairyu.html">📋 Tư cách lưu trú để nuôi dạy con tại Nhật <span class="badge badge-visa">Gia đình</span></a></li>
+<li><a href="articles/visa/shussan-ikuji-visa.html">📋 Nghỉ sinh con và gia hạn visa <span class="badge badge-visa">Gia đình</span></a></li>
+<li><a href="articles/visa/kaisha-tousan-visa.html">📋 Công ty phá sản! Ảnh hưởng đến visa <span class="badge badge-visa">Việc làm</span></a></li>
+<li><a href="articles/visa/haken-shain-visa.html">📋 Thủ tục visa khi làm nhân viên phái cử <span class="badge badge-visa">Việc làm</span></a></li>
+<li><a href="articles/visa/shiyo-kikan-koushin.html">📋 Gia hạn visa trong thời gian thử việc <span class="badge badge-visa">Việc làm</span></a></li>
+<li><a href="articles/visa/tenshoku-saki-fukyoka.html">📋 Rủi ro visa nơi làm việc mới bị từ chối <span class="badge badge-visa">Việc làm</span></a></li>
+<li><a href="articles/visa/freelance-visa-note.html">📋 Hướng dẫn visa khi làm việc tự do (Freelance) <span class="badge badge-visa">Việc làm</span></a></li>
+<li><a href="articles/visa/dokushin-shomeisho.html">📋 Giấy chứng nhận độc thân để kết hôn quốc tế <span class="badge badge-visa">Thủ tục</span></a></li>
+<li><a href="articles/visa/visa-zairyu-card-funshitsu.html">📋 Hướng dẫn khi mất thẻ lưu trú <span class="badge badge-visa">Thủ tục</span></a></li>
+<li><a href="articles/visa/visa-zairyu-card-jusho.html">📋 Thủ tục thay đổi địa chỉ trên thẻ lưu trú <span class="badge badge-visa">Thủ tục</span></a></li>
+<li><a href="articles/visa/kodo-point-simulation.html">📋 Mô phỏng tính điểm visa Chuyên gia cao cấp <span class="badge badge-visa">Cao cấp</span></a></li>
+<li><a href="articles/visa/kodo-senmonshoku-hikaku.html">📋 So sánh visa Chuyên gia cao cấp và visa Gijinkoku <span class="badge badge-visa">Cao cấp</span></a></li>
+<li><a href="articles/visa/nihongo-n1n2-eikyo.html">📋 Ảnh hưởng của tiếng Nhật N1/N2 đến visa <span class="badge badge-visa">Điều kiện</span></a></li>
+<li><a href="articles/visa/keiei-iken-shin.html">📋 Điểm mấu chốt gia hạn visa quản lý kinh doanh <span class="badge badge-visa">Kinh doanh</span></a></li>
+</ul>
+
+<!-- ===== SINH HOAT ===== -->
+<div class="cat-header cat-sinh-hoat">🏠 Đời sống & Hành chính <span class="cat-count">37 bài</span></div>
+<ul>
+<li><a href="articles/sinh-hoat/life-skeleton-01.html">📋 Hướng dẫn cơ bản ① - Thủ tục nhập cảnh và đăng ký <span class="badge badge-sinh-hoat">Cơ bản</span></a></li>
+<li><a href="articles/sinh-hoat/life-skeleton-02.html">📋 Hướng dẫn cơ bản ② - Nhà ở và tiện ích <span class="badge badge-sinh-hoat">Cơ bản</span></a></li>
+<li><a href="articles/sinh-hoat/life-skeleton-03.html">📋 Hướng dẫn cơ bản ③ - Y tế và bảo hiểm <span class="badge badge-sinh-hoat">Cơ bản</span></a></li>
+<li><a href="articles/sinh-hoat/life-skeleton-04.html">📋 Hướng dẫn cơ bản ④ - Thuế và lương hưu <span class="badge badge-sinh-hoat">Cơ bản</span></a></li>
+<li><a href="articles/sinh-hoat/life-skeleton-05.html">📋 Hướng dẫn cơ bản ⑤ - Ngân hàng và tài chính <span class="badge badge-sinh-hoat">Cơ bản</span></a></li>
+<li><a href="articles/sinh-hoat/life-skeleton-06.html">📋 Hướng dẫn cơ bản ⑥ - Việc làm và thu nhập <span class="badge badge-sinh-hoat">Cơ bản</span></a></li>
+<li><a href="articles/sinh-hoat/life-skeleton-07.html">📋 Hướng dẫn cơ bản ⑦ - Giáo dục và học tập <span class="badge badge-sinh-hoat">Cơ bản</span></a></li>
+<li><a href="articles/sinh-hoat/life-skeleton-08.html">📋 Hướng dẫn cơ bản ⑧ - Giao thông và di chuyển <span class="badge badge-sinh-hoat">Cơ bản</span></a></li>
+<li><a href="articles/sinh-hoat/life-skeleton-09.html">📋 Hướng dẫn cơ bản ⑨ - Văn hóa và ứng xử <span class="badge badge-sinh-hoat">Cơ bản</span></a></li>
+<li><a href="articles/sinh-hoat/life-gaikokujin-toroku.html">🆔 Kiến thức cơ bản về đăng ký người nước ngoài <span class="badge badge-sinh-hoat">Thủ tục</span></a></li>
+<li><a href="articles/sinh-hoat/haiguusha-raiyu-toroku.html">👨‍👩‍👧 Bảo lãnh vợ/chồng sang Nhật <span class="badge badge-sinh-hoat">Thủ tục</span></a></li>
+<li><a href="articles/sinh-hoat/life-kojin.html">🔒 Bảo vệ thông tin cá nhân và Thẻ lưu trú <span class="badge badge-sinh-hoat">Thủ tục</span></a></li>
+<li><a href="articles/sinh-hoat/hoshou-gaisha-riyou.html">🏠 Cách sử dụng công ty bảo lãnh thuê nhà <span class="badge badge-sinh-hoat">Nhà ở</span></a></li>
+<li><a href="articles/sinh-hoat/life-hikkoshi.html">📦 So sánh công ty chuyển nhà giá rẻ <span class="badge badge-sinh-hoat">Nhà ở</span></a></li>
+<li><a href="articles/sinh-hoat/life-kurashi.html">💰 Hướng dẫn chi phí sinh hoạt tại Nhật <span class="badge badge-sinh-hoat">Sinh hoạt</span></a></li>
+<li><a href="articles/sinh-hoat/life-konbini.html">🏪 Cách sử dụng cửa hàng tiện lợi (Konbini) <span class="badge badge-sinh-hoat">Sinh hoạt</span></a></li>
+<li><a href="articles/sinh-hoat/life-mercari.html">📱 Cách bán đồ cũ trên Mercari <span class="badge badge-sinh-hoat">Sinh hoạt</span></a></li>
+<li><a href="articles/sinh-hoat/life-nekkyo.html">🌡️ Biện pháp chống nóng & chống lạnh <span class="badge badge-sinh-hoat">Sinh hoạt</span></a></li>
+<li><a href="articles/sinh-hoat/life-pet.html">🐾 Cách nuôi thú cưng tại Nhật Bản <span class="badge badge-sinh-hoat">Sinh hoạt</span></a></li>
+<li><a href="articles/sinh-hoat/life-recycle.html">♻️ Hướng dẫn phân loại rác tại Nhật <span class="badge badge-sinh-hoat">Sinh hoạt</span></a></li>
+<li><a href="articles/sinh-hoat/kenko-hoken-shikumi.html">🏥 Giải thích về bảo hiểm y tế Nhật Bản <span class="badge badge-sinh-hoat">Y tế</span></a></li>
+<li><a href="articles/sinh-hoat/life-byoin.html">🏥 Hướng dẫn khám bệnh tại Nhật Bản <span class="badge badge-sinh-hoat">Y tế</span></a></li>
+<li><a href="articles/sinh-hoat/edu-daigaku.html">🎓 Hướng dẫn vào đại học Nhật Bản <span class="badge badge-sinh-hoat">Giáo dục</span></a></li>
+<li><a href="articles/sinh-hoat/edu-youchien.html">🧸 Đăng ký trường mẫu giáo & nhà trẻ <span class="badge badge-sinh-hoat">Giáo dục</span></a></li>
+<li><a href="articles/sinh-hoat/life-kyouiku.html">📚 Hướng dẫn giáo dục trẻ em cho người Việt <span class="badge badge-sinh-hoat">Giáo dục</span></a></li>
+<li><a href="articles/sinh-hoat/life-nihongo.html">🗣️ Hướng dẫn học tiếng Nhật toàn diện <span class="badge badge-sinh-hoat">Học tập</span></a></li>
+<li><a href="articles/sinh-hoat/car-shaken.html">🚗 Kiến thức cơ bản về Shaken (Kiểm định xe) <span class="badge badge-sinh-hoat">Xe cộ</span></a></li>
+<li><a href="articles/sinh-hoat/idp-unten-kikan.html">🪪 Thời gian lái xe bằng IDP tại Nhật <span class="badge badge-sinh-hoat">Xe cộ</span></a></li>
+<li><a href="articles/sinh-hoat/life-idp-riyou.html">🪪 Cách sử dụng giấy phép lái xe quốc tế (IDP) <span class="badge badge-sinh-hoat">Xe cộ</span></a></li>
+<li><a href="articles/sinh-hoat/life-idp-unten.html">🪪 Cách lấy giấy phép lái xe quốc tế (IDP) <span class="badge badge-sinh-hoat">Xe cộ</span></a></li>
+<li><a href="articles/sinh-hoat/life-taxi-ride.html">🚕 Cách đi taxi tại Nhật Bản <span class="badge badge-sinh-hoat">Xe cộ</span></a></li>
+<li><a href="articles/sinh-hoat/juminzei-choshu-hikaku.html">💰 Sự khác biệt giữa thuế cư trú khấu trừ qua lương và tự nộp <span class="badge badge-sinh-hoat">Thuế</span></a></li>
+<li><a href="articles/sinh-hoat/life-kyufukin.html">💵 Danh sách trợ cấp & hỗ trợ tài chính <span class="badge badge-sinh-hoat">Tài chính</span></a></li>
+<li><a href="articles/sinh-hoat/seimei-hoken-erabikata.html">📄 Lý do nên tham gia bảo hiểm nhân thọ <span class="badge badge-sinh-hoat">Tài chính</span></a></li>
+<li><a href="articles/sinh-hoat/credit-card-shinsa.html">💳 Biện pháp khi không vượt qua thẩm định thẻ tín dụng <span class="badge badge-sinh-hoat">Tài chính</span></a></li>
+<li><a href="articles/sinh-hoat/life-shukatsu.html">💼 Hướng dẫn tìm việc (Shukatsu) cho sinh viên <span class="badge badge-sinh-hoat">Việc làm</span></a></li>
+<li><a href="articles/sinh-hoat/life-kyuujin-site.html">💼 Cách sử dụng Indeed và Townwork <span class="badge badge-sinh-hoat">Việc làm</span></a></li>
+</ul>
+
+<!-- ===== CONG VIEC ===== -->
+<div class="cat-header cat-cong-viec">💼 Công việc & Tài chính <span class="cat-count">26 bài</span></div>
+<ul>
+<li><a href="articles/cong-viec/car-loan.html">🚗 Vay mua xe ô tô tại Nhật Bản <span class="badge badge-cong-viec">Vay</span></a></li>
+<li><a href="articles/cong-viec/credit-card-shinsa.html">💳 Biện pháp khi không vượt qua thẩm định thẻ tín dụng <span class="badge badge-cong-viec">Tín dụng</span></a></li>
+<li><a href="articles/cong-viec/fuyou-kazoku-yobiyose-zei.html">👨‍👩‍👧 Ảnh hưởng thuế khi bảo lãnh gia đình sang Nhật <span class="badge badge-cong-viec">Thuế</span></a></li>
+<li><a href="articles/cong-viec/fuyou-koujo-setsuzei.html">💰 Cách giảm thuế nhờ khấu trừ người phụ thuộc <span class="badge badge-cong-viec">Thuế</span></a></li>
+<li><a href="articles/cong-viec/kakutei-shinkoku-hitsuyo.html">📄 Khai quyết toán thuế thu nhập <span class="badge badge-cong-viec">Thuế</span></a></li>
+<li><a href="articles/cong-viec/money-furusato.html">🎁 Giảm thuế nhờ Furusato Nozei <span class="badge badge-cong-viec">Thuế</span></a></li>
+<li><a href="articles/cong-viec/money-zeikimushi.html">💰 Giải thích chi tiết về thuế thu nhập <span class="badge badge-cong-viec">Thuế</span></a></li>
+<li><a href="articles/cong-viec/souzoku-zozei-kiso.html">📜 Kiến thức cơ bản về thừa kế và thuế thừa kế <span class="badge badge-cong-viec">Thuế</span></a></li>
+<li><a href="articles/cong-viec/taishoku-go-juminzei.html">🏛️ Thuế cư trú sau khi nghỉ việc <span class="badge badge-cong-viec">Thuế</span></a></li>
+<li><a href="articles/cong-viec/gaikokujin-shisan-unyou.html">🏦 Quản lý tài sản cho người nước ngoài tại Nhật <span class="badge badge-cong-viec">Đầu tư</span></a></li>
+<li><a href="articles/cong-viec/money-toushi.html">📈 Đầu tư tại Nhật Bản cho người mới bắt đầu <span class="badge badge-cong-viec">Đầu tư</span></a></li>
+<li><a href="articles/cong-viec/gijinkoku-nenshuu.html">💵 Mức lương và thu nhập của visa Gijinkoku <span class="badge badge-cong-viec">Lương</span></a></li>
+<li><a href="articles/cong-viec/kyuuryou-meisai-yomikata.html">📄 Cách đọc bảng lương (Kyuuryou Meisai) <span class="badge badge-cong-viec">Lương</span></a></li>
+<li><a href="articles/cong-viec/money-kaigai-sokin.html">💸 Cách chuyển tiền từ Nhật về Việt Nam <span class="badge badge-cong-viec">Chuyển tiền</span></a></li>
+<li><a href="articles/cong-viec/ginko-sokin-hikaku.html">🏦 So sánh phí chuyển tiền của các ngân hàng <span class="badge badge-cong-viec">Ngân hàng</span></a></li>
+<li><a href="articles/cong-viec/telecom-net-bank.html">📱 So sánh ngân hàng trực tuyến và viễn thông <span class="badge badge-cong-viec">Ngân hàng</span></a></li>
+<li><a href="articles/cong-viec/money-nenkin.html">📅 Kiến thức cơ bản về lương hưu (Nenkin) <span class="badge badge-cong-viec">Lương hưu</span></a></li>
+<li><a href="articles/cong-viec/nenkin-dattai-ikiru-eikyo.html">⚠️ Rút lương hưu một lần và ảnh hưởng <span class="badge badge-cong-viec">Lương hưu</span></a></li>
+<li><a href="articles/cong-viec/it-engineer-visa.html">💻 Kỹ sư IT người Việt tại Nhật <span class="badge badge-cong-viec">IT</span></a></li>
+<li><a href="articles/cong-viec/vietnam-engineer-it.html">💻 Kỹ sư IT Việt Nam tại Nhật <span class="badge badge-cong-viec">IT</span></a></li>
+<li><a href="articles/cong-viec/juutaku-loan-gaikokujin.html">🏠 Vay mua nhà cho người nước ngoài <span class="badge badge-cong-viec">Vay</span></a></li>
+<li><a href="articles/cong-viec/roudou-keiyakusho-point.html">📄 Các điểm chính trong hợp đồng lao động <span class="badge badge-cong-viec">Hợp đồng</span></a></li>
+<li><a href="articles/cong-viec/shihonkin-junbi-note.html">📋 Chuẩn bị vốn thành lập công ty <span class="badge badge-cong-viec">Kinh doanh</span></a></li>
+<li><a href="articles/cong-viec/tokutei-ginou-kyuujin.html">💼 Tuyển dụng Kỹ năng đặc định <span class="badge badge-cong-viec">Việc làm</span></a></li>
+</ul>
+
+<p style="text-align:center; margin-top:30px; color:#888; font-size:13px;">
+  📌 Click vào từng bài viết để xem nội dung chi tiết &nbsp;|&nbsp; <a href="index.html">⬅ Về trang chủ</a>
+</p>
 </body>
 </html>
