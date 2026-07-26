@@ -1,4 +1,6 @@
-# netlify.toml - vietnam-japan-guide
+# netlify.toml - japan-residence
+# Multi-language static site (ja, vi, en, zh, ko, tl, ne, id, th, my, km)
+# アジア言語10ヶ国語対応
 # Language-based redirect: Japanese visitors → /ja/, Vietnamese visitors → /vi/
 
 [[redirects]]
