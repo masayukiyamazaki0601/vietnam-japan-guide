@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
   initSmoothScroll();
   initActiveNav();
   initHeaderScroll();
+  initSidebarToggle();
   initIntersectionObserver();
 });
 
@@ -148,6 +149,19 @@ function initHeaderScroll() {
     } else {
       header.style.boxShadow = 'none';
     }
+  });
+}
+
+// ---------- Sidebar Toggle (Mobile) ----------
+function initSidebarToggle() {
+  document.querySelectorAll('.sidebar__widget-toggle').forEach(function(toggle) {
+    toggle.addEventListener('click', function() {
+      var content = this.nextElementSibling;
+      if (!content) return;
+      content.classList.toggle('open');
+      this.classList.toggle('collapsed');
+      this.setAttribute('aria-expanded', content.classList.contains('open'));
+    });
   });
 }
 
