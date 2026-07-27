@@ -136,7 +136,7 @@ p { margin-bottom: var(--sp-4); }
 .header__nav { overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
 .header__nav::-webkit-scrollbar { display: none; }
 .header__nav-list { display: flex; gap: 0; }
-.header__nav-link { font-size: 0.6rem; font-weight: 500; color: var(--color-text-secondary); padding: var(--sp-2) 1px; border-radius: var(--radius); transition: all var(--transition); position: relative; white-space: nowrap; flex-shrink: 1; min-width: 0; }
+.header__nav-link { font-size: var(--fs-sm); font-weight: 500; color: var(--color-text-secondary); padding: var(--sp-2) var(--sp-3); border-radius: var(--radius); transition: all var(--transition); position: relative; white-space: nowrap; flex-shrink: 0; }
 .header__nav-link::after { content: ''; position: absolute; bottom: 2px; left: var(--sp-3); right: var(--sp-3); height: 2px; background: var(--color-accent); transform: scaleX(0); transition: transform var(--transition); }
 .header__nav-link:hover { color: var(--color-primary); background: rgba(197,160,89,0.08); }
 .header__nav-link:hover::after { transform: scaleX(1); }
