@@ -50,8 +50,8 @@ git push origin main
 
 | Secret名 | 値 | 用途 |
 |----------|----|------|
-| `NETLIFY_AUTH_TOKEN` | nfp_Xf8bqFFqq4BBfi3Sz4eSXEJbPwB8YTJF2840 | （現在不使用）Netlify用 |
-| `NETLIFY_SITE_ID` | 5dc61c6a-808b-4606-b436-126ca74de0d1 | （現在不使用）Netlify用 |
+| `NETLIFY_AUTH_TOKEN` | ***（2026-07-27 漏洩のため無効化済み） | （現在不使用）Netlify用 |
+| `NETLIFY_SITE_ID` | ***（2026-07-27 GitHub, Netlify側で無効化済み） | （現在不使用）Netlify用 |
 | `GITHUB_TOKEN` | 自動生成 | GitHub Pagesデプロイ用 |
 
 ## ローカル確認方法
