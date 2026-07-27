@@ -304,6 +304,13 @@ p { margin-bottom: var(--sp-4); }
 .animate-fade-in-delay-2 { animation-delay: 0.2s; }
 .animate-fade-in-delay-3 { animation-delay: 0.3s; }
 
+@media (max-width: 1000px) {
+  .header__nav { display: none; }
+  .header__nav.open { display: block; position: absolute; top: var(--header-h); left: 0; right: 0; background: var(--color-white); border-bottom: 1px solid var(--color-border); padding: var(--sp-4); box-shadow: var(--shadow-md); z-index: 99; }
+  .header__nav.open .header__nav-list { flex-direction: column; }
+  .header__menu-toggle { display: flex; }
+}
+
 @media (max-width: 768px) {
   :root { --fs-3xl: 1.75rem; --fs-4xl: 2rem; --header-h: 56px; }
   .header__nav { display: none; }
