@@ -180,7 +180,6 @@ function initIntersectionObserver() {
 
   // Observe category cards and article cards
   document.querySelectorAll('.category-card, .article-card').forEach(function(el) {
-    el.style.opacity = '0';
     observer.observe(el);
   });
 }
