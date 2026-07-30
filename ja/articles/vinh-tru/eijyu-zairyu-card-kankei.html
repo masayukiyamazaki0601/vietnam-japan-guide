@@ -38,10 +38,13 @@
   ]}</script>
 </head>
 <body>
-  <header class="header" role="banner">
+        <header class="header" role="banner">
     <div class="header__inner">
-      <a href="/" class="header__logo"><span class="header__logo-icon" aria-hidden="true">VN</span>Vietnam Japan Guide</a>
-      <nav class="header__nav">
+      <a href="/" class="header__logo" aria-label="Vietnam Japan Guide - トップページ">
+        <span class="header__logo-icon" aria-hidden="true">VN</span>
+        <span>Vietnam Japan Guide</span>
+      </a>
+      <nav class="header__nav" role="navigation" aria-label="メインナビゲーション">
         <ul class="header__nav-list">
           <li><a href="/ja/pages/vinh-tru.html" class="header__nav-link header__nav-link--active">永住・帰化</a></li>
           <li><a href="/ja/pages/visa.html" class="header__nav-link">ビザ・更新</a></li>
@@ -49,7 +52,7 @@
           <li><a href="/ja/pages/cong-viec.html" class="header__nav-link">仕事・金融</a></li>
         </ul>
       </nav>
-      <button class="header__menu-toggle" aria-label="メニュー"><span></span><span></span><span></span></button>
+      <button class="header__menu-toggle" aria-label="メニューを開く" aria-expanded="false"><span></span><span></span><span></span></button>
     </div>
   </header>
 
@@ -230,15 +233,26 @@
     </div>
   </article>
 
-  <footer class="footer" role="contentinfo">
+      <footer class="footer" role="contentinfo">
     <div class="footer__grid">
-      <div><h4 class="footer__section-title">当サイトについて</h4><p style="font-size:var(--fs-sm);">Vietnam Japan Guide</p></div>
-      <div><h4 class="footer__section-title">カテゴリー</h4><ul class="footer__links">
-        <li><a href="/ja/pages/vinh-tru.html">永住権</a></li><li><a href="/ja/pages/visa.html">ビザ</a></li>
-        <li><a href="/ja/pages/sinh-hoat.html">生活</a></li><li><a href="/ja/pages/cong-viec.html">仕事</a></li>
-      </ul></div>
+      <div>
+        <h4 class="footer__section-title">当サイトについて</h4>
+        <p style="font-size:var(--fs-sm);">在日ベトナム人のための生活総合情報サイト。</p>
+      </div>
+      <div>
+        <h4 class="footer__section-title">カテゴリー</h4>
+        <ul class="footer__links">
+          <li><a href="/ja/pages/vinh-tru.html">永住・帰化</a></li>
+          <li><a href="/ja/pages/visa.html">ビザ・更新</a></li>
+          <li><a href="/ja/pages/sinh-hoat.html">生活・行政</a></li>
+          <li><a href="/ja/pages/cong-viec.html">仕事・金融</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="footer__bottom"><p>※ 当サイトは法律専門家ではありません。記載内容は参考情報であり、正確な判断については出入国在留管理庁または行政書士にご確認ください。</p><p>© 2026 Vietnam Japan Guide</p></div>
+    <div class="footer__bottom">
+      <p>※ 当サイトは法律専門家ではありません。記載内容は参考情報であり、正確な判断については出入国在留管理庁または行政書士にご確認ください。</p>
+      <p>&copy; 2026 Vietnam Japan Guide</p>
+    </div>
   </footer>
   <button class="back-to-top" aria-label="トップに戻る">↑</button>
   <script src="../../js/main.js" defer></script>
