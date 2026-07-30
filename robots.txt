@@ -1,0 +1,14 @@
+# robots.txt for Vietnam Japan Guide
+# https://japan-residence.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://japan-residence.com/sitemap.xml
+
+# Crawl delay for polite crawling
+Crawl-delay: 10
+
+# Disallow admin/internal paths (none currently)
+# Disallow: /admin/
